@@ -7,7 +7,7 @@
 // </自動產生的>
 //------------------------------------------------------------------------------
 
-namespace _2021MidSample
+namespace _109_2Mid
 {
 
 
@@ -24,22 +24,22 @@ namespace _2021MidSample
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// dbl_Area 控制項。
+        /// ddl_Area 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList dbl_Area;
+        protected global::System.Web.UI.WebControls.DropDownList ddl_Area;
 
         /// <summary>
-        /// dbl_Place 控制項。
+        /// ddl_Place 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList dbl_Place;
+        protected global::System.Web.UI.WebControls.DropDownList ddl_Place;
 
         /// <summary>
         /// Label1 控制項。
@@ -69,13 +69,13 @@ namespace _2021MidSample
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// rbl_res 控制項。
+        /// rbl_Res 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList rbl_res;
+        protected global::System.Web.UI.WebControls.RadioButtonList rbl_Res;
 
         /// <summary>
         /// tb_Des 控制項。
@@ -94,5 +94,14 @@ namespace _2021MidSample
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btn_Sub;
+
+        /// <summary>
+        /// lb_Msg 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lb_Msg;
     }
 }

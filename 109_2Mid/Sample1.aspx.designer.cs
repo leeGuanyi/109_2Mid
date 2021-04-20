@@ -7,7 +7,7 @@
 // </自動產生的>
 //------------------------------------------------------------------------------
 
-namespace _2021MidSample
+namespace _109_2Mid
 {
 
 
@@ -24,13 +24,13 @@ namespace _2021MidSample
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// lb_Acc 控制項。
+        /// Label1 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lb_Acc;
+        protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
         /// tb_Acc 控制項。
@@ -42,13 +42,13 @@ namespace _2021MidSample
         protected global::System.Web.UI.WebControls.TextBox tb_Acc;
 
         /// <summary>
-        /// lb_Pass 控制項。
+        /// Label2 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lb_Pass;
+        protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
         /// tb_Pass 控制項。
@@ -60,49 +60,31 @@ namespace _2021MidSample
         protected global::System.Web.UI.WebControls.TextBox tb_Pass;
 
         /// <summary>
-        /// Label1 控制項。
+        /// Label3 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// ch_Read 控制項。
+        /// rbg_Interest 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton ch_Read;
+        protected global::System.Web.UI.WebControls.RadioButtonList rbg_Interest;
 
         /// <summary>
-        /// ch_Game 控制項。
+        /// Label4 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton ch_Game;
-
-        /// <summary>
-        /// ch_Other 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton ch_Other;
-
-        /// <summary>
-        /// Label2 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
         /// HyperLink1 控制項。

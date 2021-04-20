@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Sample1.aspx.cs" Inherits="_2021MidSample.Sample1" %>
+﻿  
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Sample1.aspx.cs" Inherits="_109_2Mid.Sample1" %>
 
 <!DOCTYPE html>
 
@@ -9,26 +10,21 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <div><h1>會員註冊</h1></div>
-            <div>   
-                <asp:Label ID="lb_Acc" runat="server" Text="會員名稱" AssociatedControlID="tb_Acc"  Font-Size="X-Large"></asp:Label>
-                <asp:TextBox ID="tb_Acc" runat="server" Height="15px" Width="200px"></asp:TextBox><br />
-
-                <asp:Label ID="lb_Pass" runat="server" Text="密碼" AssociatedControlID="tb_Pass" Font-Size="X-Large" ></asp:Label>
-                <asp:TextBox ID="tb_Pass" runat="server" Height="15px" Width="200px" TextMode="Password"></asp:TextBox><br />
-
-                <asp:Label ID="Label1" runat="server" Text="興趣" AssociatedControlID="tb_Acc" Font-Size="X-Large"></asp:Label>
-
-                <asp:RadioButton ID="ch_Read" runat="server" Font-Size="X-Large" Text="讀書" />
-                <asp:RadioButton ID="ch_Game" runat="server" Font-Size="X-Large" Text="打電動" />
-                <asp:RadioButton ID="ch_Other" runat="server" Font-Size="X-Large" Text="其他" /><br />
-
-                <asp:Label ID="Label2" runat="server" Text="其他連結" Font-Size="X-Large"></asp:Label>
-                <asp:HyperLink ID="HyperLink1" runat="server" ImageHeight="30px" ImageWidth="30px" ImageUrl="aws-brands.svg" NavigateUrl="https://aws.amazon.com/tw/"></asp:HyperLink><br />
-
-                <asp:Button ID="bt_Next" runat="server" Text="送出" PostBackUrl="~/SampleCom.aspx" Height="30px" Width="80px" />
-            </div>
+       <div>
+            <h1>會員註冊</h1>
+            <asp:Label ID="Label1" runat="server" Text="會員帳號" Font-Size="X-Large"></asp:Label>
+            <asp:TextBox ID="tb_Acc" runat="server" Height="15px" Width="200px"></asp:TextBox><br />
+            <asp:Label ID="Label2" runat="server" Text="密碼" Font-Size="X-Large"></asp:Label>
+            <asp:TextBox ID="tb_Pass" runat="server" Height="15px" TextMode="Password" Width="200px"></asp:TextBox><br />
+            <asp:Label ID="Label3" runat="server" Text="興趣(單選)" Font-Size="X-Large"></asp:Label>
+            <asp:RadioButtonList ID="rbg_Interest" runat="server" Font-Size="X-Large" RepeatDirection="Horizontal" RepeatLayout="Flow">
+                <asp:ListItem Value="aa">看書</asp:ListItem>
+                <asp:ListItem Value="bb">打電動</asp:ListItem>
+                <asp:ListItem Value="cc">其他</asp:ListItem>
+            </asp:RadioButtonList><br />
+            <asp:Label ID="Label4" runat="server" Text="其他連結" Font-Size="X-Large"></asp:Label>
+            <asp:HyperLink ID="HyperLink1" runat="server" Height="30px" ImageUrl="aws-brands.svg" NavigateUrl=" https://aws.amazon.com/tw/" Width="30px">HyperLink</asp:HyperLink><br />
+            <asp:Button ID="bt_Next" runat="server" Text="送出" Height="30px" Width="80px" OnClick="bt_Next_Click1" PostBackUrl="~/Sample1Com.aspx" />
         </div>
     </form>
 </body>
